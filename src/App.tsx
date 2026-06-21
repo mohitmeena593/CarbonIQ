@@ -101,9 +101,20 @@ export default function App() {
               <span key={s} className="hover:text-eco-600 dark:hover:text-eco-400 transition-colors cursor-default">{s}</span>
             ))}
           </div>
-          <p className="text-2xs text-gray-400 dark:text-gray-600 tracking-widest uppercase font-mono">
-            CarbonIQ v2.0 · Hack2Skill PromptWars 2026 · Made with 💚
-          </p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
+  CarbonIQ v2.0 • Hack2Skill PromptWars 2026 •{" "}
+  <span className="font-medium">
+    Designed &amp; Developed by{" "}
+  </span>
+  <a
+    href="https://www.linkedin.com/in/mohit-meena-08a239332"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="font-semibold text-emerald-600 hover:text-emerald-500 transition-colors duration-300 hover:underline"
+  >
+    Mohit Meena
+  </a>
+</p>
         </footer>
       </div>
     </div>
